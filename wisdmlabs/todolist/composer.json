@@ -1,0 +1,26 @@
+{
+    "name": "wisdmlabs/todolist",
+    "description": "test project",
+    "authors": [
+        {
+            "name": "Sumudu Hewage",
+            "email": "sumudu.hewagee@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "wisdmlabs\\todolist\\TodolistServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Wisdmlabs\\Todolist\\": "src/"
+        }
+    }
+}
